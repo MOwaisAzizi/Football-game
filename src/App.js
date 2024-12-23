@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './index.css';
 
 const App = () => {
   const [player1, setPlayer1] = useState({ x: 50, y: 200 });
@@ -52,7 +52,7 @@ const App = () => {
         break;
     }
   };
-}
+
 
 
 
@@ -123,6 +123,6 @@ const shootBall = (player) => {
     </div>
   );
 
-
+}
 
  export default App
