@@ -115,7 +115,13 @@ const shootBall = (player) => {
     setPlayer2({ x: 350, y: 200 });
   };
 
-
+  return (
+    <div className="game-area">
+      <div className="player" style={{ top: player1.y, left: player1.x }}></div>
+      <div className="player" style={{ top: player2.y, left: player2.x }}></div>
+      <div className="ball" style={{ top: ball.y, left: ball.x }}></div>
+    </div>
+  );
 
 
 
